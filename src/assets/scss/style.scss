@@ -1,0 +1,83 @@
+/*================================================================================
+	Item Name: Vuexy - Vuejs, HTML & Laravel Admin Dashboard Template
+	Version: 2.0
+	Author: PIXINVENT
+	Author URL: http://www.themeforest.net/user/pixinvent
+================================================================================
+
+NOTE:
+------
+PLACE HERE YOUR OWN SCSS CODES AND IF NEEDED, OVERRIDE THE STYLES FROM THE OTHER STYLESHEETS.
+WE WILL RELEASE FUTURE UPDATES SO IN ORDER TO NOT OVERWRITE YOUR STYLES IT'S BETTER LIKE THIS.  */
+.mentions {
+	margin: 1em 0;
+  }
+  
+  .mentions--singleLine .mentions__control {
+	display: inline-block;
+  }
+  .mentions--singleLine .mentions__higlighter {
+	padding: 1px;
+	border: 2px inset transparent;
+  }
+  .mentions--singleLine .mentions__input {
+	padding: 5px;
+	border: 2px inset;
+  }
+  
+  .mentions--multiLine .mentions__control {
+	
+	border: 1px solid silver;
+  }
+  .mentions--multiLine .mentions__highlighter {
+	padding: 9px;
+  }
+  .mentions--multiLine .mentions__input {
+	padding: 9px;
+	min-height: 63px;
+	outline: 0;
+	border: 0;
+  }
+  
+  .mentions__suggestions__list {
+	background-color: white;
+	border: 1px solid rgba(0, 0, 0, 0.15);
+	font-size: 10pt;
+	position: absolute;
+		left: 17px;
+		z-index: 1;
+		background-color: white;
+		margin-top: 14px;
+		min-width: 100px;
+	  	bottom: 20px !important;
+  }
+  
+  .mentions__suggestions__item {
+	padding: 5px 15px;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+  }
+  
+  .mentions__suggestions__item--focused {
+	background-color: #7367f0;
+	color: white;
+  }
+  
+  .mentions__mention {
+	background-color: #7367f0;
+	color: white;
+  }
+  .mentions__control {
+	  border-radius: 7px;
+	  margin-right: 5px;
+	  caret-color: #7367f0;
+  }
+  .mentions__control:focus-within {
+	  border-color: #7367f0;
+	  transition: 0.3s;
+		::placeholder {
+			
+			transition: 0.3s;
+			padding-left: 10px;	
+		}
+  }
+  
