@@ -38,4 +38,4 @@ Modern browsers and Internet Explorer 11+.
 
 [MIT](https://opensource.org/licenses/MIT)
 
-Copyright (c) 2017-present, Lan
+Copyright (c) 2022-present, Lan
